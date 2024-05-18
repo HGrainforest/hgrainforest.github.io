@@ -12,7 +12,7 @@
   --softx-version: "1.2.1";
   --hue: 0deg;
   --saturation: 0%;
-  --lightness: 10%;
+  --lightness: 60%;
   --transition: 0.15s ease;
   --chat-glow-intensity: var(--glow-intensity);
   --channel-glow-intensity: var(--glow-intensity);
@@ -21,7 +21,6 @@
   --server-glow-intensity: var(--glow-intensity);
   --talking-bar: rgb(var(--accent));
   --talking-glow: rgb(var(--accent));
-  --blur: 0px;
   --TB-height: calc(var(--toolbar-height) - 1px);
   --TB-width: 52px;
   --TB-header-padding: 155px !important;
@@ -31,6 +30,8 @@
   --bg-primary: hsl(var(--hue) var(--saturation) var(--lightness) / calc(var(--opacity) + 0.05));
   --bg-secondary: hsl(var(--hue) var(--saturation) var(--lightness) / calc(var(--opacity) + 0.1));
   --bg-tertiary: hsl(var(--hue) var(--saturation) var(--lightness) / calc(var(--opacity) + 0.15));
+  --blur: 10px;
+  --backdrop-blur: 10px;
   --fg-primary: hsl(0 0% 100% / 0.1);
   --fg-secondary: hsl(0 0% 100% / 0.05);
   --chat-bubble-bg: rgba(255, 255, 255, 0.03);
@@ -43,7 +44,6 @@
   --guild-scrollbar: none;
   --unread-colour: 255 255 255;
   --backdrop-background: var(--bg-tertiary);
-  --backdrop-blur: 0px;
   --channel-height: 40px;
   --member-height: 54px;
   --dm-height: 56px;
