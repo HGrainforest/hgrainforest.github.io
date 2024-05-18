@@ -12,7 +12,7 @@
   --softx-version: "1.2.1";
   --hue: 0deg;
   --saturation: 0%;
-  --lightness: 60%;
+  --lightness: 30%;
   --transition: 0.15s ease;
   --chat-glow-intensity: var(--glow-intensity);
   --channel-glow-intensity: var(--glow-intensity);
